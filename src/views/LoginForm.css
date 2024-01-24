@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.5);
+  padding: 40px;
+  border-width: 1px;
+  border-radius: 10px;
+  height: 450px;
+  width: 350px;
+  backdrop-filter: blur(15px);
+}
+
+.login-background-image {
+  background-image: url("../assets/login-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(70%);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
